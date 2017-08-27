@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/productMainCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardCornerRadius="1dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/selector_product_list_content_bg"
+            android:duplicateParentState="true"
+            android:orientation="vertical"
+            android:padding="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.redmartassignment.android.widgets.SquareImageView
+                    android:id="@+id/productImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/emptyTag"
+                    android:scaleType="center"
+                    android:transitionName="productImage" />
+
+                <com.redmartassignment.android.widgets.RobotoTextView
+                    android:id="@+id/promoTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/productImageView"
+                    android:layout_alignLeft="@+id/productImageView"
+                    android:layout_alignStart="@+id/productImageView"
+                    android:layout_margin="4dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingTop="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    app:textStyle="@integer/FONT_MEDIUM" />
+
+            </RelativeLayout>
+
+            <com.redmartassignment.android.widgets.RobotoTextView
+                android:id="@+id/productTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:minLines="3"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:transitionName="productName"
+                app:textStyle="@integer/FONT_LIGHT" />
+
+
+            <com.redmartassignment.android.widgets.RobotoTextView
+                android:id="@+id/sizeDetailsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:textColor="@color/greyTextColor"
+                android:textSize="12sp"
+                app:textStyle="@integer/FONT_LIGHT" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <com.redmartassignment.android.widgets.RobotoTextView
+                    android:id="@+id/priceMainTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    app:textStyle="@integer/FONT_MEDIUM" />
+
+                <com.redmartassignment.android.widgets.RobotoTextView
+                    android:id="@+id/priceOriginalTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:textColor="@color/greyTextColor"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    app:textStyle="@integer/FONT_MEDIUM" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/addToCartBottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <ImageView
+                android:id="@+id/cartMinusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/cartCountTextView"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:src="@drawable/ic_action_minus" />
+
+
+            <com.redmartassignment.android.widgets.RobotoTextView
+                android:id="@+id/cartCountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                app:textStyle="@integer/FONT_BOLD" />
+
+
+            <ImageView
+                android:id="@+id/cartAddTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/cartCountTextView"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="12dp"
+                android:src="@drawable/ic_action_add" />
+
+        </RelativeLayout>
+
+        <com.redmartassignment.android.widgets.RobotoTextView
+            android:id="@+id/addToCartTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/desert_white"
+            android:clickable="true"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/msg.addToCart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            app:textStyle="@integer/FONT_MEDIUM" />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,195 @@
+{
+  "total": 1,
+  "product": {
+    "category_tags": [
+      "household-pet",
+      "toilet-roll-kitchen-rolls-tissues",
+      "kitchen-roll",
+      "fsc",
+      "chinese-new-year",
+      "spring-cleaning",
+      "paper-tissue",
+      "kitchen-roll-3496",
+      "toilet-roll-kitchen-rolls-tissues",
+      "kitchen-roll",
+      "spring-cleaning-deals",
+      "paper-tissue-6592",
+      "kitchen-roll-6600",
+      "around-the-house",
+      "kitchen",
+      "flash-deals-6592",
+      "redmart-label",
+      "household"
+    ],
+    "id": 21286,
+    "title": "RedMart Strong and Absorbent Kitchen Towels",
+    "desc": "RedMart Multi Purpose Kitchen Towels are high-quality, responsibly sourced kitchen towels. They are strong and absorbent - ideal for cleaning, drying and removing grease. This paper is FSC certified to ensure a responsible and sustainable management of the worlds forests . This paper contains no optical brightening agents , that can cause skin irritation.",
+    "sku": "9555672908877",
+    "categories": [
+      6,
+      265,
+      3450,
+      3494,
+      265,
+      6592,
+      6928,
+      6932
+    ],
+    "types": [
+      1869,
+      3262,
+      6600,
+      6633,
+      6877
+    ],
+    "details": {
+      "prod_type": 0,
+      "uri": "redmart-strong-and-absorbent-kitchen-towels-21286",
+      "status": 1,
+      "is_new": 0.0,
+      "storage_class": "JTBPF",
+      "country_of_origin": "Malaysia"
+    },
+    "filters": {
+      "fsc": 1,
+      "vendor_name": "SANRIX",
+      "brand_uri": "redmart",
+      "mfr_name": "Sanrix Paper SDN BHD",
+      "brand_name": "RedMart",
+      "frequency": 28078,
+      "trending_frequency": 5533,
+      "country_of_origin": "Malaysia"
+    },
+    "img": {
+      "h": 0,
+      "name": "/i/m/504445126400_1446443807223.jpg",
+      "w": 0,
+      "position": 0
+    },
+    "images": [
+      {
+        "h": 0,
+        "w": 0,
+        "name": "/i/m/504445126400_1446443807223.jpg",
+        "position": 0
+      },
+      {
+        "h": 0,
+        "w": 0,
+        "name": "/i/m/5044451262_1446443633607.jpg",
+        "position": 1
+      }
+    ],
+    "measure": {
+      "wt_or_vol": "6 x 60 per pack",
+      "size": 0.0
+    },
+    "pricing": {
+      "on_sale": 1,
+      "price": 3.8,
+      "promo_price": 3.4000000000000004,
+      "savings": 10.0,
+      "savings_amount": 0.4,
+      "savings_type": 1,
+      "savings_text": "10% OFF",
+      "promo_id": 72706,
+      "discounts": {
+        "promo": {
+          "promo_price": 3.4000000000000004,
+          "savings": 10.0,
+          "savings_amount": 0.4,
+          "savings_type": 1,
+          "savings_text": "10% OFF"
+        },
+        "live_up": {
+          "promo_price": 3.25,
+          "savings": 15.0,
+          "savings_amount": 0.55,
+          "savings_type": 1,
+          "savings_text": "15% OFF"
+        }
+      },
+      "applicable_discount": "promo"
+    },
+    "warehouse": {
+      "measure": {
+        "vol": 60.0,
+        "vol_metric": "pcs",
+        "wt_metric": "",
+        "l": 0.0,
+        "w": 0.0,
+        "h": 0.0
+      }
+    },
+    "attributes": {
+      "dag": [
+
+      ]
+    },
+    "description_fields": {
+      "secondary": [
+        {
+          "name": "Material Composition",
+          "content": "100% Virgin Pulp"
+        },
+        {
+          "name": "Certifications & Endorsements",
+          "content": "FSC - COC Certified"
+        },
+        {
+          "name": "Description",
+          "content": "RedMart Multi Purpose Kitchen Towels are high-quality, responsibly sourced kitchen towels. They are strong and absorbent - ideal for cleaning, drying and removing grease. This paper is FSC certified to ensure a responsible and sustainable management of the worlds forests . This paper contains no optical brightening agents , that can cause skin irritation."
+        }
+      ],
+      "primary": [
+        {
+          "name": "About the Product",
+          "content": "Strong and Absorbent. Made from Environmental Responsible Sources. FSC - COC Certified."
+        }
+      ]
+    },
+    "promotions": [
+      {
+        "id": 72706,
+        "type": 1,
+        "savings_text": "10% OFF",
+        "live_up_savings_text": "15% OFF",
+        "promo_label": "",
+        "current_product_group_id": 1
+      }
+    ],
+    "inventory": {
+      "atp_status": 0,
+      "max_sale_qty": 200,
+      "qty_in_carts": 0,
+      "qty_in_stock": 48,
+      "stock_status": 1,
+      "stock_type": 0,
+      "next_available_date": "2017-08-27T20:15:22Z",
+      "limited_stock_status": 0,
+      "atp_lots": [
+        {
+          "from_date": "2017-08-27T20:15:22Z",
+          "to_date": "2018-02-24T20:15:21Z",
+          "stock_status": 0,
+          "qty_in_stock": 0,
+          "qty_in_carts": 0
+        },
+        {
+          "from_date": "2017-08-27T20:15:22Z",
+          "to_date": "4712-12-31T15:59:59Z",
+          "stock_status": 1,
+          "qty_in_stock": 4289,
+          "qty_in_carts": 0
+        }
+      ],
+      "original_max_sale_qty": 48
+    }
+  },
+  "page": 0,
+  "status": {
+    "msg": "",
+    "code": 2000
+  },
+  "page_size": 1
+}

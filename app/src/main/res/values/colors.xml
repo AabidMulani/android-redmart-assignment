@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#EF485B</color>
+    <color name="colorPrimaryDark">#D43748</color>
+    <color name="colorAccent">#EF485B</color>
+    <color name="divider_color">#33FF5700</color>
+
+    <color name="primary">#EF485B</color>
+    <color name="primary_dark">#D43748</color>
+    <color name="primary_light">#F8BBD0</color>
+    <color name="accent">#EF485B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider_grey">#E0E0E0</color>
+    <color name="divider">#EAF0F0</color>
+    <color name="amount_light_grey">#F2F2F2</color>
+    <color name="black">#000000</color>
+    <color name="greyTextColor">#A6A6A6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="desert_white">#F8F8F8</color>
+    <color name="promoType_1">#57C9D9</color>
+    <color name="promoType_2">#EF485B</color>
+    <color name="promoType_others">#5FBA7D</color>
+
+</resources>
