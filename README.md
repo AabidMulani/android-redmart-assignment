@@ -34,8 +34,8 @@ Strictly followed MVP architecture. This helps in proper deep Unit testing and c
 ---
 ### MOCKITO (Unit testing):
 Please refer to the following two files to get the pattern on Unit testing we can add with the MVP architecture.
-- [DashBoardFragmentTest]()
-- [RedMartProductDetailsActivityTest]()
+- [DashBoardFragmentTest](https://github.com/AabidMulani/android-redmart-assignment/blob/master/app/src/test/java/com/redmartassignment/android/app/fragment/DashBoardFragmentTest.java)
+- [RedMartProductDetailsActivityTest](https://github.com/AabidMulani/android-redmart-assignment/blob/master/app/src/test/java/com/redmartassignment/android/app/activities/RedMartProductDetailsActivityTest.java)
 
 ##### Please Note:
 1) The above two classes are just to give a pattern of test cases. These files have not covered all the use cases.
@@ -45,14 +45,14 @@ Please refer to the following two files to get the pattern on Unit testing we ca
 ### Animations & Custom View:
 
 - Implemented [Shared View Transition](https://www.youtube.com/watch?v=nA2Axt5LjKQ) while showing details view of the product. That was very easy to add :)
-- Please refer the the [WIDGETS]() package for all the relevant custom view used in the project.
+- Please refer the the [WIDGETS](https://github.com/AabidMulani/android-redmart-assignment/tree/master/app/src/main/java/com/redmartassignment/android/widgets) package for all the relevant custom view used in the project.
 
 
 ---
 ### Redmart UI/UX style:
 Please refer the following screenshots.
 
- <img src="https://github.com/AabidMulani/" width="200">
- <img src="https://github.com/AabidMulani/" width="200">
- <img src="https://github.com/AabidMulani/" width="200">
- <img src="https://github.com/AabidMulani/" width="200">
+ <img src="https://github.com/AabidMulani/android-redmart-assignment/blob/develop/screenshots/photo_2017-08-28_05-01-03.jpg?raw=true" width="200">
+ <img src="https://github.com/AabidMulani/android-redmart-assignment/blob/develop/screenshots/photo_2017-08-28_05-01-07.jpg?raw=true" width="200">
+ <img src="https://github.com/AabidMulani/android-redmart-assignment/blob/develop/screenshots/photo_2017-08-28_05-01-15.jpg?raw=true" width="200">
+ <img src="https://github.com/AabidMulani/android-redmart-assignment/blob/develop/screenshots/photo_2017-08-28_05-01-52.jpg?raw=true" width="200">
